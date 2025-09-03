@@ -1,0 +1,13 @@
+{
+  "name": "career-pivot-function",
+  "version": "1.0.0",
+  "description": "A Google Cloud Function to generate career pivot content using the Gemini API.",
+  "main": "index.js",
+  "dependencies": {
+    "@google-cloud/functions-framework": "^3.0.0",
+    "@google/generative-ai": "^0.11.0"
+  },
+  "scripts": {
+    "start": "functions-framework --target=generatePivot"
+  }
+}
